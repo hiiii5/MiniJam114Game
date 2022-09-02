@@ -1,18 +1,6 @@
 #-----------------------------------------------------------------------+
 # ADD IMPORTANT FILES TO IGNORE HERE/IN THE DIRECTORY LEVEL GIT IGNORE. |
 #-----------------------------------------------------------------------+
-Plugins/DarkerNodes/Content/Materials/SolidColor.uasset
-Plugins/DarkerNodes/Content/Materials/Panel.uasset
-Plugins/DarkerNodes/Content/Materials/HeaderBox.uasset
-Plugins/DarkerNodes/Content/Materials/CenterUVs.uasset
-Plugins/DarkerNodes/Content/Materials/ButtonCut.uasset
-Plugins/DarkerNodes/Content/Materials/Button.uasset
-Plugins/DarkerNodes/Content/Materials/Box.uasset
-Saved/AutoScreenshot.png
-
-# Ignore logs
-Saved/Logs/LittleUtopia.log
-
 # Visual studio user specific files
 .vs/
 
@@ -61,11 +49,14 @@ Saved/Logs/LittleUtopia.log
 *.VC.db
 *.VC.opendb
 
+LittleUtopia/Binaries/*
+LittleUtopia/Saved/*
+
 # Compiled source files for the engine to use
-Intermediate/*
+LittleUtopia/Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
+LittleUtopia/DerivedDataCache/*
 
 #---------------------------------------------------------------------------+
 # ADD IMPORTANT FILES TO NOT IGNORE HERE/IN THE DIRECTORY LEVEL GIT IGNORE. |
